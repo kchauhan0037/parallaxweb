@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: white;
+    min-height: 100vh;
+    overflow: auto;
+}
+
+#header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 2em;
+    color: #ff8800 ;
+    pointer-events: none;
+}
+
+.navigation a{
+text-decoration: none;
+padding: 6px 15px;
+border-radius: 20px;
+margin: 0 10px;
+font-weight: 600;
+}
+
+.navigation a:hover,
+.navigation a.active{
+    background: #359585;
+    color: white;
+}
+
+
+.parallax{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#text{
+    position: absolute;
+    font-size: 5em;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+}
+
+.parallax img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.sec{
+   
+    position: relative;
+    padding: 20px;
+    background-color:#12504B ;
+    box-sizing: border-box;
+   
+}
+
+.sec h2{
+    font-size: 1em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.sec p{
+    font-size: 1em;
+    color:white ;
+    font-weight: 300;
+}
